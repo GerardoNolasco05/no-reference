@@ -1,0 +1,16 @@
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.homeContainer h1 {
+  font-family: Helvetica;
+  font-size: 2rem;
+}
+
+.light {
+  font-weight: lighter; 
+}
+
