@@ -6,6 +6,7 @@ export default function Home() {
       <h1>
         <span className={styles.light}>no</span>reference
       </h1>
+      <p className={styles.comingSoon}>Coming Soon</p>
     </div>
   );
 }

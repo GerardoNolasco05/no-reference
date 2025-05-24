@@ -1,16 +1,27 @@
 .homeContainer {
   display: flex;
+  flex-direction: column; /* stack vertically */
   justify-content: center;
-  align-items: center;
+  align-items: center;    /* center horizontally */
   height: 100vh;
+  margin: 0;
 }
 
-.homeContainer h1 {
+h1 {
   font-family: Helvetica;
-  font-size: 2rem;
+  font-size: 3rem;
+  margin: 0;
 }
 
 .light {
-  font-weight: lighter; 
+  font-weight: 300;   
 }
 
+.comingSoon {
+  font-family: Helvetica;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  opacity: 0.8;
+}
